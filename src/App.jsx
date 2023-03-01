@@ -15,7 +15,7 @@ import Redirect from "./Redirect";
 // This is a public sample test API key.
 // Don’t submit any personally identifiable information in requests made with this key.
 // Sign in to see your own test API key embedded in code samples.
-const stripePromise = loadStripe("pk_test_51MbaNlEi4KwCfDCDfFbZ7TSw6N9l4Wbz6pQQIV56bo4py3TBW9e9p5nhUbeMi2q0UIv4n6SNxQr4gB53rK6Ueovo00RvZQJtBw");
+const stripePromise = loadStripe("pk_test_**");
 
 export default function App() {
   const [clientSecret, setClientSecret] = useState("");

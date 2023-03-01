@@ -2,8 +2,8 @@
 // This is a public sample test API key.
 // Don’t submit any personally identifiable information in requests made with this key.
 // Sign in to see your own test API key embedded in code samples.
-const stripe = require("stripe")('sk_test_51MbaNlEi4KwCfDCDZao140YNb5rN3JV3ttL3R6Npj7xx48KWzoICLl61otE6GIA32mfikBuSQpUVimWUG92CAA8h00zv1bXVol');
-const endpointSecret = 'whsec_5f734b7dfe630ce65f24ac487f428a2f0066e85362e059e9e3be3d1c33e6ee21';
+const stripe = require("stripe")('sk_test_**');
+const endpointSecret = 'whsec_**';
 
 const express = require("express");
 const app = express();
